@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+    <!-- manrope font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- tailwind and daisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS -->
+    <style>
+        * {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+    <!-- tailwind custom css -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#131318',
+                        'paragraph-color': '#13131399',
+                        'button-color': '#FF4240',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+    </header>
+
+    <!-- main -->
+    <main class="max-w-6xl mx-auto">
+        <!-- banner section -->
+        <section class="mt-10">
+            <div class="baba relative">
+                <!-- slider -->
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="images/slider-1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle bg-primary-color text-white border-none">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-primary-color text-white border-none">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="images/slider-2.jpg" class="w-full rounded-2xl" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle bg-primary-color text-white border-none">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-primary-color text-white border-none">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- badge -->
+                <div
+                    class="relative lg:absolute lg:top-[350px] lg:left-[650px] bg-primary-color p-8 space-y-4 rounded-2xl lg:w-2/5">
+                    <h3 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                    <p class="text-[#FFFFF6] font-medium">To succeed in hockey, you need teamwork.” – Henry Samueli</p>
+                </div>
+            </div>
+        </section>
+        <!-- banner section end -->
+
+        <!-- dash line -->
+        <hr class="border-dashed bg-red-400 my-16">
+        <!-- dash line end -->
+
+        <!-- hockeys club section -->
+        <section class="">
+            <!-- club content -->
+            <div class="space-y-5 text-center">
+                <h2 class="text-primary-color font-extrabold text-4xl">Professional Hockeys Club</h2>
+                <p class="text-paragraph-color">“Every day you guys look worse and worse. And today you played like
+                    tomorrow.” – John Mariucci</p>
+            </div>
+
+            <!-- dash line -->
+            <hr class="border-dashed bg-red-400 my-16">
+            <!-- dash line end -->
+
+            <!-- club details -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- details 1 -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-red-500" style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar">
+                        <span class="text-primary-color font-extrabold text-3xl">87%</span>
+                    </div>
+                    <h4 class="text-primary-color font-semibold text-xl">Prayer Facility</h4>
+                    <p class="text-paragraph-color">Every Muslim is expected to pray five times a day and thus access to prayer facilities is of utmost importance to a Muslim player.</p>
+                </div>
+                <!-- details 2 -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-green-500" style="--value:95; --size:10rem; --thickness: 1rem;" role="progressbar">
+                        <span class="text-primary-color font-extrabold text-3xl">95%</span>
+                    </div>
+                    <h4 class="text-primary-color font-semibold text-xl">Experienced Coach</h4>
+                    <p class="text-paragraph-color">A literacy coach who possesses coach training and is actively engaged in coaching colleagues.</p>
+                </div>
+                <!-- details 3 -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-yellow-500" style="--value:90; --size:10rem; --thickness: 1rem;" role="progressbar">
+                        <span class="text-primary-color font-extrabold text-3xl">90%</span>
+                    </div>
+                    <h4 class="text-primary-color font-semibold text-xl">Senior Player</h4>
+                    <p class="text-paragraph-color">Senior Player means a player who has played International, provincial, or professional hockey in any jurisdiction in the current or last 3 preceding seasons.</p>
+                </div>
+                <!-- details 4 -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-blue-500" style="--value:80; --size:10rem; --thickness: 1rem;" role="progressbar">
+                        <span class="text-primary-color font-extrabold text-3xl">80%</span>
+                    </div>
+                    <h4 class="text-primary-color font-semibold text-xl">Training Ground</h4>
+                    <p class="text-paragraph-color">sport an area where people prepare for sporting competitions, with activities primarily concentrating on skills.</p>
+                </div>
+            </div>
+        </section>
+        <!-- hockeys club section end -->
+
+
+        <!-- dash line -->
+        <hr class="border-dashed bg-red-400 my-16">
+        <!-- dash line end -->
+
+        <!-- program section -->
+        <section class="">
+            <!-- program content -->
+            <div class="space-y-5 text-center">
+                <h2 class="text-primary-color font-extrabold text-4xl">Program Sections</h2>
+                <p class="text-paragraph-color">“Hockey is a tough, physical game, and it always should be.” – Mario Lemieux</p>
+            </div>
+
+            <!-- dash line -->
+            <hr class="border-dashed bg-red-400 my-16">
+            <!-- dash line end -->
+
+            <!-- program details -->
+            <div class="baba flex flex-col lg:flex-row gap-6">
+                <!-- program details 1  -->
+                <div class="relative">
+                    <img src="images/program-1.png" class="md:w-full" alt="">
+                    <div class="absolute -mt-48 max-w-[450px] space-y-4 px-10 py-1 bg-slate-200 bg-opacity-10 rounded-e-xl">
+                        <h4 class="font-extrabold text-2xl text-white">Junior Program</h4>
+                        <p class="text-white font-semibold">“Hockey is a tough, physical game, and it always should be.” – Mario Lemieux</p>
+                        <button class="btn bg-button-color border-none text-white">Register Now!</button>
+                    </div>
+                </div>
+                <!-- program details 2  -->
+                <div class="relative">
+                    <img src="images/program-2.png" class="md:w-full" alt="">
+                    <div class="absolute -mt-48 max-w-[450px] space-y-4 px-10 py-1 bg-slate-200 bg-opacity-10 rounded-e-xl">
+                        <h4 class="font-extrabold text-2xl text-white">Teenager Program</h4>
+                        <p class="text-white font-semibold">“Hockey is a tough, physical game, and it always should be.” – Mario Lemieux</p>
+                        <button class="btn bg-button-color border-none text-white">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+            <!-- program details -->
+            <!-- program details 3  -->
+            <div class="relative mt-6">
+                <img src="images/program-3.png" class="h-[280px] md:h-full w-full" alt="">
+                <div class="absolute -mt-48 max-w-[450px] space-y-4 px-10 py-1 bg-slate-200 bg-opacity-10 rounded-e-xl">
+                    <h4 class="font-extrabold text-2xl text-white">Professional Program</h4>
+                    <p class="text-white font-semibold">“Hockey is a tough, physical game, and it always should be.” – Mario Lemieux</p>
+                    <button class="btn bg-button-color border-none text-white">Register Now!</button>
+                </div>
+            </div>
+        </section>
+        <!-- program section end -->
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
