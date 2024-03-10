@@ -40,11 +40,49 @@
     </script>
 </head>
 
-<body>
+<body class="p-3 lg:p-0">
     <!-- header -->
-    <header>
-
+    <header class="max-w-6xl mx-auto">
+        <!-- navbar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="font-bold text-button-color"><a>Home</a></li>
+                        <li class="font-bold"><a>About</a></li>
+                        <li class="font-bold"><a>Pages</a></li>
+                        <li class="font-bold"><a>Blogs</a></li>
+                        <li class="font-bold"><a>Contact</a></li>
+                        <i class="fa-solid fa-magnifying-glass font-bold text-button-color text-xl pl-3 bg-slate-100 p-2 rounded-full cursor-pointer"></i>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-4xl font-extrabold text-primary-color">Hockey<span class="text-button-color">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li class="font-bold text-button-color"><a>Home</a></li>
+                    <li class="font-bold"><a>About</a></li>
+                    <li class="font-bold"><a>Pages</a></li>
+                    <li class="font-bold"><a>Blogs</a></li>
+                    <li class="font-bold"><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="invisible lg:visible fa-solid fa-magnifying-glass font-bold text-button-color text-xl mr-3 cursor-pointer"></i>
+                <button class="btn bg-button-color border-none text-white">Get Ticket</button>
+            </div>
+        </div>
+        <!-- navbar end -->
     </header>
+    <!-- header end -->
 
     <!-- main -->
     <main class="max-w-6xl mx-auto">
@@ -431,8 +469,199 @@
         </section>
         <!-- new products section end -->
 
-    </main>
 
+        <!-- dash line -->
+        <hr class="border-dashed bg-red-400 my-16">
+        <!-- dash line end -->
+
+
+        <!-- clients question section -->
+        <section>
+            <div class="space-y-5 text-center">
+                <h2 class="text-primary-color font-extrabold text-4xl">Clients Question</h2>
+                <p class="text-paragraph-color">Could you share with me your overall assessment of our relationship and
+                    the work we've done for you?</p>
+            </div>
+
+            <!-- dash line -->
+            <hr class="border-dashed bg-red-400 my-16">
+            <!-- dash line end -->
+
+            <div
+                class="baba border p-4 lg:p-8 rounded-2xl grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center items-center">
+                <div>
+                    <img src="images/faq.png" class="w-full h-[300px] md:[h-470px] lg:h-fit" alt="">
+                </div>
+                <!-- accordion -->
+                <div class="space-y-4">
+                    <!-- 1 -->
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-primary-color text-xl font-bold">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content text-paragraph-color">
+                            <p>Ice hockey skates, accessories, tools, & care products.</p>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-primary-color text-xl font-bold">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content text-paragraph-color">
+                            <p>we provide players with hockey training articles, videos, and workout programs to help
+                                them improve their hockey game.</p>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-primary-color text-xl font-bold">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content text-paragraph-color">
+                            <p>Individual Lessons: Flat rate of $16.50 per session for ice costs. Additional coaches fee
+                                to be discussed prior to acceptance.</p>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-primary-color text-xl font-bold">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content text-paragraph-color">
+                            <p>Ski touring is travel uphill on skis with the intent of eventually skiing down.</p>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-primary-color text-xl font-bold">
+                            Booking
+                        </div>
+                        <div class="collapse-content text-paragraph-color">
+                            <p>We are currently fully booked with courses now for this winter.</p>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-primary-color text-xl font-bold">
+                            Pricing
+                        </div>
+                        <div class="collapse-content text-paragraph-color">
+                            <p>Order your Ski touring at the best price on Ekosport, the number 1 for outdoor sports!.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- clients question section end -->
+
+
+        <!-- dash line -->
+        <hr class="border-dashed bg-red-400 my-16">
+        <!-- dash line end -->
+
+
+        <!-- get in touch section -->
+        <section>
+            <div class="space-y-5 text-center">
+                <h2 class="text-primary-color font-extrabold text-4xl">Get in Touch</h2>
+                <p class="text-paragraph-color">If you get in touch with someone, <br> you contact them by writing to
+                    them or phoning them.</p>
+            </div>
+
+            <!-- dash line -->
+            <hr class="border-dashed bg-red-400 my-16">
+            <!-- dash line end -->
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- contact part -->
+                <div class="border rounded-2xl p-5 lg:p-12 space-y-6">
+                    <!-- 1 -->
+                    <div class="bg-slate-100 p-8 rounded-xl space-y-3">
+                        <img src="images/phone.png" alt="">
+                        <p class="font-medium text-paragraph-color">Phone Number :</p>
+                        <h6 class="font-bold text-primary-color text-xl">(880+) 123-123-1274</h6>
+                    </div>
+                    <!-- 2 -->
+                    <div class="bg-red-100 p-8 rounded-xl space-y-3">
+                        <img src="images/mail.png" alt="">
+                        <p class="font-medium text-paragraph-color">Email :</p>
+                        <h6 class="font-bold text-primary-color text-xl">hockeys@support.com</h6>
+                    </div>
+                    <!-- 3 -->
+                    <div class="bg-blue-100 p-8 rounded-xl space-y-3">
+                        <img src="images/map.png" alt="">
+                        <p class="font-medium text-paragraph-color">Location :</p>
+                        <h6 class="font-bold text-primary-color text-xl">152/1 Mohakhali Wireless Gate.</h6>
+                    </div>
+                </div>
+                <!-- form -->
+                <div>
+                    <form>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- name -->
+                            <label class="space-y-3"> <span class="text-primary-color font-bold text-xl">Your
+                                    name</span> <br>
+                                <input type="text" placeholder="Enter Your full name"
+                                    class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
+                            </label>
+                            <!-- mail -->
+                            <label class="space-y-3"> <span class="text-primary-color font-bold text-xl">Your
+                                    Email</span> <br>
+                                <input type="text" placeholder="Enter Your Email"
+                                    class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
+                            </label>
+                            <!-- subject -->
+                            <label class="space-y-3"> <span class="text-primary-color font-bold text-xl">Your
+                                    Subject</span> <br>
+                                <input type="text" placeholder="Enter Your subject"
+                                    class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
+                            </label>
+                            <!-- Phone Number -->
+                            <label class="space-y-3"> <span class="text-primary-color font-bold text-xl">Your Phone
+                                    Number</span> <br>
+                                <input type="text" placeholder="Enter Your Phone Number"
+                                    class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
+                            </label>
+                        </div>
+                        <!-- textarea -->
+                        <div class="my-6">
+                            <label class="space-y-3"> <span class="text-primary-color font-bold text-xl">Message</span>
+                                <br>
+                                <textarea class="textarea bg-slate-100 w-full h-[350px]"
+                                    placeholder="Write your Message"></textarea>
+                            </label>
+                        </div>
+                        <button class="btn bg-button-color border-none text-white w-full">Send Message</button>
+
+                    </form>
+                </div>
+            </div>
+
+            <!-- social -->
+            <div class="text-center bg-slate-100 w-full rounded-2xl p-7 mt-12 space-y-6">
+                <h4 class="text-primary-color text-2xl font-extrabold">Social Media</h4>
+                <div class="flex justify-center items-center gap-5">
+                    <i class="fa-brands fa-facebook text-2xl"></i>
+                    <i class="fa-brands fa-github text-2xl"></i>
+                    <i class="fa-brands fa-linkedin text-2xl"></i>
+                    <i class="fa-brands fa-twitter text-2xl"></i>
+                </div>
+            </div>
+        </section>
+        <!-- get in touch section end -->
+
+
+
+    </main>
+    <!-- main end -->
 
     <!-- footer -->
     <footer class="mt-20 bg-black">
@@ -479,6 +708,7 @@
             </footer>
         </section>
     </footer>
+    <!-- footer end -->
 </body>
 
 </html>
